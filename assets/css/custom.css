@@ -1,0 +1,97 @@
+.intro-body {
+  display: block;
+}
+
+.masthead {
+  max-height: 80vh;
+}
+
+.iframe-container {
+  max-height: calc(80vh + 40px);
+  max-width: 100vw;
+  margin: -40px 0 0 0;
+  padding: 0;
+}
+
+.headerlink {
+  color: #FF5368;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.headerlink:hover {
+  color: #FF8897;
+}
+
+.team-images {
+  height: 220px;
+  width: 220px;
+  max-width: 100%;
+  margin: 0px auto 20px auto;
+}
+
+.team-name {
+  color:white;
+  text-decoration: none;
+}
+
+.noborder div a{
+  border: 1px solid black;
+}
+
+.nohover:hover{
+  border: 1px solid black;
+}
+
+.partner-logos {
+  align-items: center;
+}
+
+.partner-logos div a img {
+  max-width: 100%;
+}
+
+.team-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hashtags {
+  font-size: 16px;
+}
+
+.hashtags span {
+  margin-right: 0.5em;
+}
+
+.hashtags span:hover {
+  color: #FF8897;
+}
+
+.responsive-iframe {
+  height: calc(80vh + 40px);
+  width: 100%;
+  object-fit: cover;
+}
+
+.headliner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .masthead {
+    padding: 75px 0;
+  }
+}
