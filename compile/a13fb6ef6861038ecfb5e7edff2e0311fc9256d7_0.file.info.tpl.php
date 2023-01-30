@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-11-17 08:36:28
+/* Smarty version 4.2.1, created on 2023-01-30 12:51:25
   from '/var/www/couch-mildano/templates/info.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6375f28c1875e9_54621832',
+  'unifunc' => 'content_63d7bd4dc951e8_44052930',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a13fb6ef6861038ecfb5e7edff2e0311fc9256d7' => 
     array (
       0 => '/var/www/couch-mildano/templates/info.tpl',
-      1 => 1668674185,
+      1 => 1675082962,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6375f28c1875e9_54621832 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63d7bd4dc951e8_44052930 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="text-center content-section" id="info" style="padding-top: 20px;">
         <a class="anchor" id="infoscroll"></a>
         <div class="container">

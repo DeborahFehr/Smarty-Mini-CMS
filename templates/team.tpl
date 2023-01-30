@@ -5,14 +5,14 @@
                                         {if $name == "You?" }
                                             <a href={"mailto:"|cat:$mail}><img src={#base_team_images#|cat:$image}></a>
                                         {else}
-                                            <a href={"?page="|cat:$name}><img src={#base_team_images#|cat:$image}></a>
+                                            <a href={#base_path#|cat:"?page="|cat:$name}><img src={#base_team_images#|cat:$image}></a>
                                         {/if}
                                     </div>
                                     <h5 style="margin-bottom: 10px;" >
                                     {if $name == "You?" }
                                         <a href={"mailto:"|cat:$mail} class="team-name">{$name}</a>
                                     {else}
-                                        <a href={"?page="|cat:$name} class="team-name">{$name}</a>
+                                        <a href={#base_path#|cat:"?page="|cat:$name} class="team-name">{$name}</a>
                                     {/if}
                                     
                                     {if $country == "world" }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-01-20 15:37:36
+/* Smarty version 4.2.1, created on 2023-01-30 12:52:49
   from '/var/www/couch-mildano/templates/teamsingle.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_63cab5407b9e57_09056889',
+  'unifunc' => 'content_63d7bda15c99b4_07814207',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cc2aab26cf6588fad096fc16585914bf2963bc53' => 
     array (
       0 => '/var/www/couch-mildano/templates/teamsingle.tpl',
-      1 => 1674229042,
+      1 => 1675083140,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_63cab5407b9e57_09056889 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63d7bda15c99b4_07814207 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/couch-mildano/smarty/libs/plugins/modifier.capitalize.php','function'=>'smarty_modifier_capitalize',),));
 $_smarty_tpl->smarty->ext->configLoad->_loadConfigFile($_smarty_tpl, "test.conf", "setup", 0);
 ?>
@@ -99,7 +99,8 @@ $_smarty_tpl->_subTemplateRender("file:nav.tpl", $_smarty_tpl->cache_id, $_smart
 "></i>
                 <?php }?>
                 </p>
-                <a href="/#teamscroll"><button class="btn btn-primary btn-lg btn-default" type="button">Back to Event</button></a>
+                <a href=<?php echo ($_smarty_tpl->smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, 'base_path')).("#teamscroll");?>
+><button class="btn btn-primary btn-lg btn-default" type="button">Back to Event</button></a>
             </div>
         </div>
     </section>

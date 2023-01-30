@@ -4,7 +4,7 @@
             <div class="container iframe-container">
                 <video class="responsive-iframe" autoplay muted loop playsinline src="content/videos/hero.mp4"></video>
                 <h1 class="headliner">
-                    <a href={$info_files.Hero_URL}
+                    <a href={#base_path#|cat:$info_files.Hero_URL}
                         target="_blank" class="headerlink">
                         Party with us! &nbsp;
                         <i class="fa fa-external-link"></i>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-01-20 14:30:43
+/* Smarty version 4.2.1, created on 2023-01-30 12:51:25
   from '/var/www/couch-mildano/templates/team.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_63caa593753f97_06820859',
+  'unifunc' => 'content_63d7bd4dcbe739_69707436',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ce1f19639cec253a022ab0d6d3bb5c68d322417' => 
     array (
       0 => '/var/www/couch-mildano/templates/team.tpl',
-      1 => 1674225041,
+      1 => 1675083051,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63caa593753f97_06820859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63d7bd4dcbe739_69707436 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 d-flex flex-column justify-content-between"
                                 style="margin-bottom: 20px;">
                                 <div>
@@ -30,7 +30,7 @@ function content_63caa593753f97_06820859 (Smarty_Internal_Template $_smarty_tpl)
 ><img src=<?php echo ($_smarty_tpl->smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, 'base_team_images')).($_smarty_tpl->tpl_vars['image']->value);?>
 ></a>
                                         <?php } else { ?>
-                                            <a href=<?php echo ("?page=").($_smarty_tpl->tpl_vars['name']->value);?>
+                                            <a href=<?php echo (($_smarty_tpl->smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, 'base_path')).("?page=")).($_smarty_tpl->tpl_vars['name']->value);?>
 ><img src=<?php echo ($_smarty_tpl->smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, 'base_team_images')).($_smarty_tpl->tpl_vars['image']->value);?>
 ></a>
                                         <?php }?>
@@ -41,7 +41,7 @@ function content_63caa593753f97_06820859 (Smarty_Internal_Template $_smarty_tpl)
  class="team-name"><?php echo $_smarty_tpl->tpl_vars['name']->value;?>
 </a>
                                     <?php } else { ?>
-                                        <a href=<?php echo ("?page=").($_smarty_tpl->tpl_vars['name']->value);?>
+                                        <a href=<?php echo (($_smarty_tpl->smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, 'base_path')).("?page=")).($_smarty_tpl->tpl_vars['name']->value);?>
  class="team-name"><?php echo $_smarty_tpl->tpl_vars['name']->value;?>
 </a>
                                     <?php }?>

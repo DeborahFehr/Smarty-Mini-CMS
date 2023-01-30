@@ -59,7 +59,7 @@
                     <i class="flag {"flag-"|cat:$country}"></i>
                 {/if}
                 </p>
-                <a href="/#teamscroll"><button class="btn btn-primary btn-lg btn-default" type="button">Back to Event</button></a>
+                <a href={#base_path#|cat:"#teamscroll"}><button class="btn btn-primary btn-lg btn-default" type="button">Back to Event</button></a>
             </div>
         </div>
     </section>
