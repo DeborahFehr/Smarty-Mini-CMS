@@ -8,8 +8,8 @@
                     <p>Images by 
                     <a href="https://www.pexels.com/" target="_blank">Pexels</a>
                     and <a href="https://www.canva.com/" target="_blank">Canva</a>,
-                    original Template by
-                    <a href="https://github.com/startbootstrap/startbootstrap-grayscale" target="_blank">Start Bootstrap</a> 
+                    Design by
+                    <a href="https://github.com/DeborahFehr/Smarty-Mini-CMS" target="_blank">fehr.solutions</a> 
                     </p>
                 </div>
             </div>
